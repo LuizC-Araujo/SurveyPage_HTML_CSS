@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+    background-image: url("https://i.postimg.cc/rmFbmmDL/bg-food.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.survey_header {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    color: #FFF;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#title {
+    padding: 20px;
+    font-family: 'Lemonada', cursive;
+}
+
+.left {
+    width: 40%
+}
+
+.right {
+    display:block;
+    width: 60%;
+    align-items: center;
+}
+
+#description {
+    font-size: 20px;
+}
+
+.form {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+#name, #email {
+    width: 80%;
+}
+
+#number {
+    width: 80px;
+}
+
+#number, #name, #email {
+    margin: 0px auto 20px 100px;
+    border-radius: 10px;
+    height: 40px;
+    font-size: 16px;
+}
+
+#dropdown {
+    margin: 0px auto 20px 15px;
+    border-radius: 10px;
+    height: 40px;
+    font-size: 16px;
+}
+
+#name-label, #email-label, #number-label, #hamburgueres {
+    color: #FFF;
+    font-weight: bolder;
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+
+.sexo {
+    margin-left: 20px;
+}
+
+.checkbox {
+    margin-top: 15px;
+    margin-left: 100px;
+    margin-right: 12px;
+    color: #FFF;
+}
+
+#info-add {
+    margin-top: 20px;
+    color: #FFF;
+    margin-left: 10px;
+}
+
+textarea {
+    width: 909px;
+    height: 300px;;
+}
+
+#submit {
+    margin-left: 100px;
+    padding: 20px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+footer {
+    text-align: right;
+    padding: 100px;
+}
+
+footer a{
+    text-decoration: none;
+    color: #FFF
+}
